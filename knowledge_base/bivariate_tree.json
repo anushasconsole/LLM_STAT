@@ -1,0 +1,35 @@
+{
+    "rules": [
+      {
+        "dtype_combo": "numerical-numerical",
+        "methods": [
+          "pearson_correlation",
+          "spearman_correlation",
+          "linear_regression",
+          "scatter_plot",
+          "heatmap"
+        ]
+      },
+      {
+        "dtype_combo": "numerical-categorical",
+        "methods": [
+          "t_test",
+          "anova",
+          "mann_whitney_u",
+          "grouped_boxplot",
+          "violin_plot"
+        ]
+      },
+      {
+        "dtype_combo": "categorical-categorical",
+        "methods": [
+          "chi_square_test",
+          "fishers_exact_test",
+          "cramers_v",
+          "mosaic_plot",
+          "stacked_bar_chart"
+        ]
+      }
+    ]
+  }
+  

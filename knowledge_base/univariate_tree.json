@@ -1,0 +1,28 @@
+{
+    "rules": [
+      {
+        "dtype": "numerical",
+        "methods": [
+          "mean", 
+          "median",
+          "standard_deviation",
+          "histogram",
+          "boxplot",
+          "shapiro_wilk_test",
+          "kolmogorov_smirnov_test"
+        ]
+      },
+      {
+        "dtype": "categorical",
+        "methods": [
+          "frequency_table",
+          "mode",
+          "proportions",
+          "bar_chart",
+          "pie_chart",
+          "chi_square_goodness_of_fit"
+        ]
+      }
+    ]
+  }
+  
